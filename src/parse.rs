@@ -112,7 +112,7 @@ impl Text3d {
             Command,
             Image,
         }
-
+        #[allow(dead_code)]
         trait BooleanFlip {
             fn flip(&mut self);
         }

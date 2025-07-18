@@ -20,7 +20,7 @@ default = ["2d", "3d"]
 reflect = []
 
 [dependencies]
-bevy = { version = "0.16.0", default-features = false, features = [
+bevy = { git = "ssh://git@github.com/kharmic-universe-deps/bevy-rs.git", branch = "ku-0.1.0", default-features = false, features = [
   "bevy_log",
   "bevy_image",
   "bevy_render",
@@ -40,5 +40,5 @@ opt-level = 3
 opt-level = 3
 
 [dev-dependencies]
-bevy = "0.16"
+bevy = {git = "ssh://git@github.com/kharmic-universe-deps/bevy-rs.git", branch = "ku-0.1.0"}
 fastrand = "2.3.0"
