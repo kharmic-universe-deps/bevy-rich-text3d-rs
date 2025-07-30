@@ -45,9 +45,10 @@ impl Text3d {
     ///
     /// # Example
     ///
-    /// ```
+    ///
+    ///
     /// "Deals **{blue:{damage_number}}** {red:fire} damage to the enemy."
-    /// ```
+    ///
     ///
     /// # Syntax
     ///

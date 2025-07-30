@@ -27,7 +27,7 @@ bevy = { git = "ssh://git@github.com/kharmic-universe-deps/bevy-rs.git", branch 
   "bevy_asset",
   "bevy_window",
 ]}
-cosmic-text = "0.14.2"
+cosmic-text = {git = "ssh://git@github.com/kharmic-universe-deps/cosmic-text-rs.git", branch = "ku-0.1.0"}
 rustc-hash = "2.1.1"
 sys-locale = "0.3.2"
 thiserror = "2.0.9"
